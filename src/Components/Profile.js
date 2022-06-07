@@ -15,7 +15,7 @@ export class Profile extends React.Component {
   componentDidMount() {
     this.loadUserData();
   }
-  componentWillUnmount(){
+  componentWillUnmount() {
     cancelFetch(this.fetchID);
   }
   componentDidUpdate(prevPops) {
